@@ -21,7 +21,7 @@ const { buttonProps, itemProps, isOpen, setIsOpen } = useDropdownMenu<HTMLDivEle
 
 For button that triggers the dropdown:
 
-```typescript
+```jsx
 <button
   {...buttonProps}
 >
@@ -29,7 +29,7 @@ For button that triggers the dropdown:
 
 For options in the list:
 
-```
+```jsx
 <li
   key={option}
   {...itemProps[index]}

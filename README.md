@@ -9,19 +9,19 @@ Introducing a hook to create an accessible dropdown easily in few steps. This ho
 
 Import the hook:
 
-``` 
+```typescript
 import useDropdown from accessible-dropdown-menu
 ```
 
 Use the hook:
 
-```  
+```typescript
 const { buttonProps, itemProps, isOpen, setIsOpen } = useDropdownMenu<HTMLDivElement>(numberOfItems, currSelectedValue);
 ```
 
 For button that triggers the dropdown:
 
-```
+```typescript
 <button
   {...buttonProps}
 >

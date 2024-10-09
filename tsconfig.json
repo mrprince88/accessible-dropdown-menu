@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    // Other compiler options...
+    "typeRoots": ["./node_modules/@types"],
+    "outDir": "./dist",
+    "lib": ["dom", "dom.iterable", "es2022"]
+  },
+  "include": ["src/*.ts"]
+}

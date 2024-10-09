@@ -1,0 +1,15 @@
+{
+  "name": "accessible-dropdown-menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/useDropdownMenu",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^18.3.1",
+    "typescript": "^5.6.3"
+  }
+}
